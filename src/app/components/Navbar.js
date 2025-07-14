@@ -15,13 +15,13 @@ export default function MyNavbar() {
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Our Values</a>
+                            <a class="nav-link" href="/dashboard/values">Our Values</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="/dashboard/ourEvents">Events</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Members</a>
+                            <a class="nav-link" href="/dashboard/ourMembers">Members</a>
                         </li>
                     </ul>
                 </div>

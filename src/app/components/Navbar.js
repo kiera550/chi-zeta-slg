@@ -23,6 +23,9 @@ export default function MyNavbar() {
                         <li class="nav-item active">
                             <a class="nav-link" href="/dashboard/ourMembers">Members</a>
                         </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/dashboard/donate">Donate</a>
+                        </li>
                     </ul>
                 </div>
             </div>

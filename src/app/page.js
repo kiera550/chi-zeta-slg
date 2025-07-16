@@ -13,7 +13,13 @@ export default function Home() {
           <p>Greetings from the Chi Zeta Chapter of Sigma Lambda Gamma! </p>
         </div>
         <div className="col-8">
-          Image to go here
+          <Image 
+            src="/images/kierandgabi.png" 
+            alt="testingimage"
+            width={600}
+            height={400}
+            className="rounded"
+          />
         </div>
       </div>
       <div className="row mt-4">

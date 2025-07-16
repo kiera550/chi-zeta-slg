@@ -1,11 +1,15 @@
 'use client';
-
+import '../../globals.css';
 
 export default function Members(){
     return(
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-              <h1>Members here</h1>
-              
+        <div className="container text-center">
+              <div className="row mt-4">
+                <h1 className="title-custom2"> Siblings for life, Hermanas por vida</h1>
+              </div>
+              <div className="row mt-4">
+                <h2>Active Members</h2>
+              </div>
          </div>
     )
 }

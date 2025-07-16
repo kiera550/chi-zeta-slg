@@ -2,6 +2,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-msMadi: 'Ms Madi', cursive;
 }
 
 @theme inline {
@@ -21,10 +22,20 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: arial; 
+  font-family: var(--font-quicksand); 
   /* change font */
 }
 
+.title-custom1{
+  font-family: var(--font-cormorant);
+  font-size: 100px;
+}
+
+.title-custom2{
+  font-family: var(--font-msMadi);
+  font-size: 70px;
+  color: #560e82;
+}
 .button-custom {
   background-color: #ec008c;
   border-color: #ec008c;

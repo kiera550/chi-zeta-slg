@@ -6,11 +6,14 @@ export default function Home() {
   return (
     
     <div className = "container text-center">
-      <div className="row mt-4">
-        <div className="col-4 ">
-          <h1>Chi Zeta at Case Western Reserve</h1>
-          <h3>Sigma Lambda Gamma National Sorority Inc.</h3>
-          <p>Greetings from the Chi Zeta Chapter of Sigma Lambda Gamma! </p>
+      <div className="row mt-4 h-75">
+        <div className="col-4">
+          <br></br>
+          <br></br>
+          <h3>Get to know...</h3>
+          <h1 className = "title-custom1">Chi Zeta</h1>
+          <h2>Sigma Lambda Gamma National Sorority Inc.</h2>
+          <p> at Case Western Reserve University </p>
         </div>
         <div className="col-8">
           <Image 
@@ -24,7 +27,7 @@ export default function Home() {
       </div>
       <div className="row mt-4">
         <div>
-          <h1>Culture is Pride, Pride is Success</h1>
+          <h1 className="title-custom2">Culture is Pride, Pride is Success</h1>
         </div>
       </div>
       <div className="row mt-4">

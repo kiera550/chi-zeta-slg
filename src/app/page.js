@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MyNavbar from "./components/Navbar";
+import './globals.css';
 
 export default function Home() {
   return (
@@ -31,9 +32,11 @@ export default function Home() {
       <div className="row mt-4">
         <div className="col-sm">
           <h3>Sign up for a coffee chat with a sibling!</h3>
+          <button type="button" className="btn btn-primary btn-lg button-custom">Schedule</button>
         </div>
         <div className="col-sm">
-          <h3>Fill out our interest form</h3>
+          <h3>Fill out our interest form to learn more.</h3>
+          <button type="button" className="btn btn-primary btn-lg button-custom">Form</button>
         </div>
         <div className="col-sm">
           <p>Image here</p>

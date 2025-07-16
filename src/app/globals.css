@@ -8,18 +8,31 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-azeret-mono);
+  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-azeret-mono);
+  font-family: arial; 
+  /* change font */
 }
+
+.button-custom {
+  background-color: #ec008c;
+  border-color: #ec008c;
+  color: white;
+}
+.button-custom:hover{
+  background-color: #f758b8;
+  border-color:  #f758b8;
+  color: white;
+}
+

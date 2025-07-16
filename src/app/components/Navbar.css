@@ -1,8 +1,8 @@
 .navbar-custom {
-    background-color: #ec008c !important;
+    background-color: #ec008c;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: white !important;
+    color: white;
 }

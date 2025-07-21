@@ -84,7 +84,9 @@ export default function Home() {
         <br/>
         <div>
           <h3>Follow us on Instagram</h3>
+          <a href="https://www.instagram.com/cwrugammas/" target="_blank">
           <InstagramIcon style={{ fontSize: 50, color: '#E4405F' }} />
+          </a>
         </div>
       </div>
     </div>

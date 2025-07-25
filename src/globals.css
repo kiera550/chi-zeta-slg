@@ -1,0 +1,49 @@
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-msMadi: 'Ms Madi', cursive;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-quicksand); 
+  /* change font */
+}
+
+.title-custom1{
+  font-family: var(--font-cormorant);
+  font-size: 100px;
+}
+
+.title-custom2{
+  font-family: var(--font-msMadi);
+  font-size: 70px;
+  color: #560e82;
+}
+.button-custom {
+  background-color: #ec008c;
+  border-color: #ec008c;
+  color: white;
+}
+.button-custom:hover{
+  background-color: #f758b8;
+  border-color:  #f758b8;
+  color: white;
+}
+

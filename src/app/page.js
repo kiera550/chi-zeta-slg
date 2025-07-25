@@ -38,10 +38,10 @@ export default function Home() {
       </div>
       {/* Short summary and hisotry of chapter to go here */}
       <div className="row mt-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Sigma Lambda Gamma (SLG) National Sorority, Inc., provides opportunities for lifelong empowerment to its members, thereby positively influencing the global community. We pride ourselves in promoting respect and upholding standards of excellence in morality, ethics, and education. By engaging in activities that focus on our founding principles, our members can develop and fine-tune their professional and leadership skills.</p>
       </div>
       {/* Testimonials */}
-      <div className="row mt-4">
+      {/* <div className="row mt-4">
         <div className="col-sm">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <h3>Name of member</h3>
@@ -54,7 +54,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <h3>Name of member</h3>
         </div>
-      </div>
+      </div> */}
       {/* Interest forms */}
       <div className="row mt-4">
         <div className="text-start">

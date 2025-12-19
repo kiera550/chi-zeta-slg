@@ -1,6 +1,5 @@
 import Image from "next/image";
 import MyNavbar from "./components/Navbar";
-import CarouselHome from "./components/Carousel";
 import './globals.css';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
@@ -20,15 +19,13 @@ export default function Home() {
         <div className="col-7">
           <br></br>
           <br></br>
-          {/* <Image 
+          <Image 
             src="/images/groupphoto.jpeg" 
             alt="testingimage"
-            width={1182/1.7}
-            height={665/1.7}
+            width={1182/2}
+            height={665/2}
             className="rounded"
-          /> */}
-          <CarouselHome/>
-          
+          />
         </div>
       </div>
       <div className="row mt-4">
@@ -68,7 +65,7 @@ export default function Home() {
         </div>
         <div className="col-sm">
           <h3>Fill out our interest form to learn more.</h3>
-          <a className="btn btn-light btn-lg button-custom" href="https://forms.gle/dGgPhDPx3My6oi7a9">Form</a>
+          <button type="button" className="btn btn-light btn-lg button-custom">Form</button>
         </div>
         <div className="col-sm">
           <Image

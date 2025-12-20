@@ -8,8 +8,9 @@ export default function Members(){
                 <h1 className="title-custom2"> Siblings for life, Hermanas por vida</h1>
               </div>
               <div className="row mt-4">
-                <h3>Page coming soon!</h3>
               </div>
          </div>
     )
 }
+
+//https://docs.google.com/spreadsheets/d/e/2PACX-1vSqVBXQyYet-ueLhE2tzHe3fVNVwaiandynVfEJv3LMkEVqAVhjVBIaOF7UpiijL95oV-XQY2w0Lcah/pub?output=csv

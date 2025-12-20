@@ -1,5 +1,6 @@
 'use client';
 import '../../globals.css';
+import MemberList from './components/MemberList';
 
 export default function Members(){
     return(
@@ -9,6 +10,7 @@ export default function Members(){
               </div>
               <div className="row mt-4">
                 <h2>Active Members</h2>
+                <MemberList/>
               </div>
          </div>
     )
